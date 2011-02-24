@@ -1,7 +1,7 @@
 # BDD Game of Life Application in SproutCore Using Jasmine
 
-Gregory Moeck, Brandon Murphy, James Gary, and Scott Smith (OldFartDeveloper) sat down
-to BDD the "Game of Life" using SproutCore and Jasmine.
+[Gregory Moeck](http://github.com/gmoeck), [Brendon Murphy](http://github.com/bemurphy), [James Gary](http://github.com/jamesgary), and Scott Smith ([OldFartDeveloper](http://github.com/oldfartdeveloper)) sat down
+to BDD the "Game of Life" using [SproutCore](http://github.com/sproutcore/sproutcore) and [Jasmine](http://github.com/pivotal/jasmine).
 
 At the end of the evening, this is what they had.  OldFartDeveloper uploaded it
 so people could continue if desired.  Later on, OldFart and James cleaned it up a bit to
@@ -34,6 +34,7 @@ This has Jasmine integrated into the SproutCore project instead of QUnit.
 ## To see the test results
 
 - [http://localhost:4020/life/en/current/tests.html](http://localhost:4020/life/en/current/tests.html) shows the test results
+- On the page, try clicking the various links to see the different ways that Jasmine will work with you.
 
 # Acknowledgements
 
