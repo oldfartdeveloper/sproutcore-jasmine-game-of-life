@@ -1,0 +1,8 @@
+/* This allows the test rendering to completely overlay the "normal" application display */
+div.jasmine_reporter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: #ddd;
+}

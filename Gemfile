@@ -1,0 +1,18 @@
+source :gemcutter
+
+gem 'abstract', '1.0.0'
+gem 'chunky_png', '0.12.0'
+gem 'compass', '0.10.6'
+gem 'daemons', '1.1.0'
+gem 'diff-lcs', '1.1.2'
+gem 'erubis', '2.6.6'
+gem 'eventmachine', '0.12.10'
+gem 'extlib', '0.9.15'
+gem 'haml', '3.0.25'
+gem 'json_pure', '1.4.6'
+gem 'rack', '1.2.1'
+gem 'rake', '0.8.7'
+gem 'rubygems-update', '1.4.2'
+gem 'sproutcore', '1.5.0.pre.3'
+gem 'thin', '1.2.7'
+gem 'thor', '0.14.6'
