@@ -3,7 +3,6 @@
  * User: scott
  * Date: Feb 10, 2011
  * Time: 8:15:16 PM
- * To change this template use File | Settings | File Templates.
  */
 Life.GameBoardView = SC.View.extend({
   displayProperties: 'rows'.w(),
