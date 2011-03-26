@@ -17,11 +17,15 @@ This has Jasmine integrated into the SproutCore project instead of QUnit.
 
 # Installation
 
+    $ gem install sproutcore -v 1.5.0.pre.5
     $ cd <your directory containing your projects>
-    $ git clone git@github.com:oldfartdeveloper/sproutcore-jasmine-game-of-life.git
-    $ cd sproutcore-jasmine-game-of-life
-    $ gem install bundler
-    $ bundle install
+    $ git clone git@github.com:oldfartdeveloper/sproutcore-jasmine-game-of-life.git life
+    $ cd life
+    $ mkdir frameworks
+    $ cd frameworks
+    $ git clone git@github.com:FrozenCanuck/Ki.git
+    $ git clone git@github.com/gmoeck/jasmine-sproutcore.git
+    $ cd ..
 
 # Running the Application
 
