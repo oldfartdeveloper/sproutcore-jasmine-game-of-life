@@ -5,4 +5,5 @@ div.jasmine_reporter {
     height: 100%;
     margin: 0;
     background: #ddd;
+    z-index: 100;
 }
