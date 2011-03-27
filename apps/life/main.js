@@ -6,7 +6,7 @@
 
 Life.main = function main() {
   Life.getPath('mainPage.mainPane').append();
-  var board = Life.GameBoard.create({rows: 10});
+  var board = Life.GameBoard.create({rows: 10, cols: 10});
   Life.gameBoardController.set('content', board);
 } ;
 
