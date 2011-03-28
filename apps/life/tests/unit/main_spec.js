@@ -9,7 +9,6 @@ describe('Life.main', function(){
   var statechartSpy;
 
   beforeEach(function() {
-    statechartSpy = spyOn(Life.mainStatechart, 'setUp');
     Life.main();
   });
 
@@ -18,6 +17,8 @@ describe('Life.main', function(){
   });
 
   it('initializes the mainStatechart', function() {
-    expect(statechartSpy).toHaveBeenCalled();
+    var currentStates = Life.mainStatechart.get('currentStates');
+    expect(currentStates.length).toBe(1);
+    expect(currentStates[0].get('name')).toBe('setUp');
   });
 });
