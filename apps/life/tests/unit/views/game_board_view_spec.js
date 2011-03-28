@@ -5,7 +5,7 @@
  * Time: 8:17:31 PM
  * To change this template use File | Settings | File Templates.
  */
-describe('Life.GameBoard', function(){
+describe('Life.Game', function(){
   describe('#render', function(){
     beforeEach(function(){
       //board = Life.GameBoard.create({rows: 10});

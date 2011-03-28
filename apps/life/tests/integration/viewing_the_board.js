@@ -11,7 +11,7 @@ describe('Viewing the board', function() {
   describe('Given a board', function() {
 
     beforeEach(function() {
-      board = Life.GameBoard.create({rows:10, columns:10});
+      board = Life.Game.create({rows:10, columns:10});
     });
 
     describe('When I launch the game', function() {

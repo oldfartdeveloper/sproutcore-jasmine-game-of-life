@@ -1,6 +1,6 @@
 require File.expand_path('../frameworks/jasmine-sproutcore/builders/jasmine_builder', __FILE__)
 
-config :all, :required => :sproutcore
+config :all, :required => [:sproutcore, :ki]
 
 namespace :build do
   desc "builds a jasmine unit test"

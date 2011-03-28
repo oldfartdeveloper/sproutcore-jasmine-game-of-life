@@ -24,4 +24,4 @@ Life = SC.Application.create(
   
   // TODO: Add global constants or singleton objects needed by your app here.
 
-}) ;
+});

@@ -1,3 +1,7 @@
+sc_require('statecharts/main_statechart');
+sc_require('models/game');
+sc_require('resources/main_page');
+
 // ==========================================================================
 // Project:   Life
 // Copyright: ©2011 My Company, Inc.
@@ -5,9 +9,9 @@
 /*globals Life */
 
 Life.main = function main() {
-  Life.getPath('mainPage.mainPane').append();
-  var board = Life.GameBoard.create({rows: 10, cols: 10});
-  Life.gameBoardController.set('content', board);
-} ;
+  console.log('Before initStatechart');
+  Life.mainStatechart.initStatechart();
+  console.log('After initStatechart');
+};
 
 function main() { Life.main(); }
